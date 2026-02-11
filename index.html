@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Your FREE $100 Netflix Gift Card - Stream Unlimited!</title>
+    <meta name="description" content="Claim your FREE $100 Netflix Gift Card today! Enjoy unlimited movies, TV shows, and original content. Limited time offer - claim now!">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --netflix-red: #E50914;
+            --netflix-dark: #141414;
+            --netflix-gray: #2F2F2F;
+            --netflix-light: #B3B3B3;
+            --accent-gold: #FFB800;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: var(--netflix-dark);
+            color: white;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Hero */
+        .hero {
+            background: linear-gradient(180deg, rgba(20, 20, 20, 0.8) 0%, rgba(20, 20, 20, 0.95) 100%),
+                        url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z' fill='%23e50914' fill-opacity='0.05' fill-rule='evenodd'/%3E%3C/svg%3E");
+            padding: 120px 20px 80px;
+            text-align: center;
+            position: relative;
+        }
+
+        .netflix-logo {
+            font-family: 'Bebas Neue', cursive;
+            font-size: 72px;
+            color: var(--netflix-red);
+            letter-spacing: 8px;
+            margin-bottom: 30px;
+            text-shadow: 0 4px 20px rgba(229, 9, 20, 0.5);
+            animation: fadeInDown 0.6s ease;
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .hero-badge {
+            background: var(--accent-gold);
+            color: var(--netflix-dark);
+            padding: 12px 28px;
+            border-radius: 50px;
+            font-size: 14px;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            display: inline-block;
+            margin-bottom: 30px;
+            animation: fadeInUp 0.6s ease 0.2s both;
+            box-shadow: 0 4px 20px rgba(255, 184, 0, 0.4);
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .hero h1 {
+            font-size: 56px;
+            font-weight: 900;
+            margin-bottom: 20px;
+            line-height: 1.2;
+            animation: fadeInUp 0.6s ease 0.3s both;
+        }
+
+        .hero h1 .highlight {
+            color: var(--netflix-red);
+            font-size: 72px;
+        }
+
+        .hero-subtitle {
+            font-size: 22px;
+            color: var(--netflix-light);
+            margin-bottom: 40px;
+            font-weight: 400;
+            animation: fadeInUp 0.6s ease 0.4s both;
+        }
+
+        /* Gift Card Display */
+        .gift-card {
+            max-width: 500px;
+            margin: 40px auto;
+            animation: fadeInUp 0.6s ease 0.5s both;
+        }
+
+        .card {
+            background: linear-gradient(135deg, var(--netflix-red) 0%, #B20710 100%);
+            border-radius: 20px;
+            padding: 40px;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 20px 60px rgba(229, 9, 20, 0.4);
+            animation: float 3s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-15px); }
+        }
+
+        .card::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: linear-gradient(45deg, transparent 30%, rgba(255, 255, 255, 0.2) 50%, transparent 70%);
+            animation: shine 3s ease-in-out infinite;
+        }
+
+        @keyframes shine {
+            0% { transform: translateX(-100%) translateY(-100%) rotate(45deg); }
+            100% { transform: translateX(100%) translateY(100%) rotate(45deg); }
+        }
+
+        .card-logo {
+            font-family: 'Bebas Neue', cursive;
+            font-size: 48px;
+            color: white;
+            letter-spacing: 4px;
+            margin-bottom: 30px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .card-amount {
+            font-size: 80px;
+            font-weight: 900;
+            color: white;
+            text-align: center;
+            margin: 20px 0;
+            position: relative;
+            z-index: 1;
+            text-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .card-label {
+            font-size: 20px;
+            color: rgba(255, 255, 255, 0.9);
+            text-align: center;
+            font-weight: 700;
+            position: relative;
+            z-index: 1;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .cta-button {
+            background: var(--accent-gold);
+            color: var(--netflix-dark);
+            padding: 20px 50px;
+            border-radius: 12px;
+            font-size: 22px;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 8px 30px rgba(255, 184, 0, 0.5);
+            transition: all 0.3s ease;
+            animation: fadeInUp 0.6s ease 0.6s both;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cta-button::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 0;
+            height: 0;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.3);
+            transform: translate(-50%, -50%);
+            transition: width 0.6s, height 0.6s;
+        }
+
+        .cta-button:hover::before {
+            width: 300px;
+            height: 300px;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 40px rgba(255, 184, 0, 0.6);
+        }
+
+        .cta-button span {
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Features */
+        .features {
+            padding: 80px 20px;
+            background: var(--netflix-gray);
+        }
+
+        .section-title {
+            font-size: 42px;
+            font-weight: 900;
+            text-align: center;
+            margin-bottom: 60px;
+            color: white;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+        }
+
+        .feature-card {
+            background: var(--netflix-dark);
+            padding: 40px 30px;
+            border-radius: 16px;
+            text-align: center;
+            border: 2px solid transparent;
+            transition: all 0.3s ease;
+        }
+
+        .feature-card:hover {
+            border-color: var(--netflix-red);
+            transform: translateY(-5px);
+        }
+
+        .feature-icon {
+            font-size: 56px;
+            margin-bottom: 20px;
+        }
+
+        .feature-card h3 {
+            font-size: 22px;
+            margin-bottom: 12px;
+            color: white;
+        }
+
+        .feature-card p {
+            color: var(--netflix-light);
+            line-height: 1.7;
+        }
+
+        /* How It Works */
+        .how-it-works {
+            padding: 80px 20px;
+            background: var(--netflix-dark);
+        }
+
+        .steps {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .step {
+            text-align: center;
+        }
+
+        .step-number {
+            width: 80px;
+            height: 80px;
+            background: var(--netflix-red);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 36px;
+            font-weight: 900;
+            margin: 0 auto 20px;
+            box-shadow: 0 4px 20px rgba(229, 9, 20, 0.4);
+        }
+
+        .step h3 {
+            font-size: 22px;
+            margin-bottom: 12px;
+        }
+
+        .step p {
+            color: var(--netflix-light);
+            line-height: 1.7;
+        }
+
+        /* Shows Grid */
+        .shows {
+            padding: 80px 20px;
+            background: var(--netflix-gray);
+        }
+
+        .shows-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .show-card {
+            background: var(--netflix-dark);
+            border-radius: 12px;
+            padding: 60px 20px;
+            text-align: center;
+            font-size: 48px;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
+
+        .show-card:hover {
+            border-color: var(--netflix-red);
+            transform: scale(1.05);
+        }
+
+        /* Final CTA */
+        .final-cta {
+            background: linear-gradient(135deg, var(--netflix-red) 0%, #B20710 100%);
+            padding: 100px 20px;
+            text-align: center;
+        }
+
+        .final-cta h2 {
+            font-size: 52px;
+            font-weight: 900;
+            margin-bottom: 20px;
+        }
+
+        .final-cta p {
+            font-size: 22px;
+            margin-bottom: 40px;
+            color: rgba(255, 255, 255, 0.9);
+        }
+
+        /* Footer */
+        .footer {
+            background: var(--netflix-dark);
+            padding: 40px 20px;
+            text-align: center;
+            color: var(--netflix-light);
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+
+        .footer-links a {
+            color: var(--netflix-light);
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        .footer-links a:hover {
+            color: white;
+        }
+
+        /* Timer */
+        .timer {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 30px 20px;
+            text-align: center;
+        }
+
+        .timer-title {
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 15px;
+            color: var(--accent-gold);
+            text-transform: uppercase;
+        }
+
+        .countdown {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .time-unit {
+            background: var(--netflix-red);
+            border-radius: 10px;
+            padding: 15px 20px;
+            min-width: 80px;
+        }
+
+        .time-value {
+            font-size: 36px;
+            font-weight: 900;
+            color: white;
+        }
+
+        .time-label {
+            font-size: 12px;
+            color: rgba(255, 255, 255, 0.8);
+            text-transform: uppercase;
+            margin-top: 5px;
+        }
+
+        @media (max-width: 768px) {
+            .netflix-logo { font-size: 56px; }
+            .hero h1 { font-size: 42px; }
+            .hero h1 .highlight { font-size: 56px; }
+            .section-title { font-size: 32px; }
+            .final-cta h2 { font-size: 36px; }
+            .card-amount { font-size: 64px; }
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero -->
+    <section class="hero">
+        <div class="container">
+            <div class="netflix-logo">NETFLIX</div>
+            <div class="hero-badge">⚡ LIMITED TIME OFFER</div>
+            <h1>
+                Get Your FREE<br>
+                <span class="highlight">$100</span> Netflix Gift Card!
+            </h1>
+            <p class="hero-subtitle">
+                Stream unlimited movies, series, and documentaries on any device
+            </p>
+
+            <div class="gift-card">
+                <div class="card">
+                    <div class="card-logo">NETFLIX</div>
+                    <div class="card-amount">$100</div>
+                    <div class="card-label">Gift Card</div>
+                </div>
+            </div>
+
+            <button class="cta-button" onclick="claimCard()">
+                <span>🎁 CLAIM YOUR $100 CARD NOW!</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Timer -->
+    <section class="timer">
+        <div class="container">
+            <div class="timer-title">⏰ Offer Expires In:</div>
+            <div class="countdown">
+                <div class="time-unit">
+                    <div class="time-value" id="hours">23</div>
+                    <div class="time-label">Hours</div>
+                </div>
+                <div class="time-unit">
+                    <div class="time-value" id="minutes">59</div>
+                    <div class="time-label">Minutes</div>
+                </div>
+                <div class="time-unit">
+                    <div class="time-value" id="seconds">45</div>
+                    <div class="time-label">Seconds</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">What You Can Watch</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🎬</div>
+                    <h3>Unlimited Movies</h3>
+                    <p>Access thousands of blockbuster movies, from classics to latest releases</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📺</div>
+                    <h3>TV Series & Shows</h3>
+                    <p>Binge-watch your favorite series and discover new addictive shows</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎭</div>
+                    <h3>Netflix Originals</h3>
+                    <p>Exclusive content you won't find anywhere else - award-winning originals</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">👨‍👩‍👧‍👦</div>
+                    <h3>Kids Content</h3>
+                    <p>Safe, fun, and educational content for children of all ages</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📱</div>
+                    <h3>Any Device</h3>
+                    <p>Watch on TV, laptop, phone, or tablet - anytime, anywhere</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⬇️</div>
+                    <h3>Download & Go</h3>
+                    <p>Download shows to watch offline during your commute or travel</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="how-it-works">
+        <div class="container">
+            <h2 class="section-title">How to Claim Your $100 Gift Card</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Click "Claim Now"</h3>
+                    <p>Start the simple claim process - takes less than 2 minutes</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Complete Steps</h3>
+                    <p>Answer a few quick questions to verify your eligibility</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Start Streaming!</h3>
+                    <p>Receive your $100 Netflix gift card and enjoy unlimited entertainment</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Shows -->
+    <section class="shows">
+        <div class="container">
+            <h2 class="section-title">Watch What Everyone's Talking About</h2>
+            <div class="shows-grid">
+                <div class="show-card">🎬</div>
+                <div class="show-card">📺</div>
+                <div class="show-card">🎭</div>
+                <div class="show-card">🎪</div>
+                <div class="show-card">🎨</div>
+                <div class="show-card">🎯</div>
+                <div class="show-card">🎮</div>
+                <div class="show-card">🎵</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="final-cta">
+        <div class="container">
+            <h2>Don't Miss Out on $100 FREE!</h2>
+            <p>Limited spots available - claim your Netflix gift card now</p>
+            <button class="cta-button" onclick="claimCard()">
+                <span>🎁 CLAIM MY $100 NETFLIX CARD!</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-links">
+                <a href="#privacy">Privacy Policy</a>
+                <a href="#terms">Terms & Conditions</a>
+                <a href="#contact">Contact</a>
+                <a href="#faq">FAQ</a>
+            </div>
+            <p>© 2026 OkWow Netflix Offer. All rights reserved.</p>
+            <p style="font-size: 12px; margin-top: 10px; opacity: 0.7;">
+                This is a promotional offer. Netflix is a registered trademark of Netflix, Inc.
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        // CPA Offer Link
+        const NETFLIX_OFFER_URL = 'https://www.af9m8trk.com/LUE11AVE/KDQ122LY/';
+
+        function claimCard() {
+            console.log('🎬 Netflix Card Claim - Redirecting to:', NETFLIX_OFFER_URL);
+            window.location.href = NETFLIX_OFFER_URL;
+        }
+
+        // Countdown Timer
+        function startCountdown() {
+            const endTime = new Date().getTime() + (24 * 60 * 60 * 1000);
+            
+            const timer = setInterval(function() {
+                const now = new Date().getTime();
+                const distance = endTime - now;
+                
+                const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                
+                document.getElementById('hours').textContent = hours.toString().padStart(2, '0');
+                document.getElementById('minutes').textContent = minutes.toString().padStart(2, '0');
+                document.getElementById('seconds').textContent = seconds.toString().padStart(2, '0');
+                
+                if (distance < 0) {
+                    clearInterval(timer);
+                    startCountdown();
+                }
+            }, 1000);
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            startCountdown();
+        });
+    </script>
+</body>
+</html>
